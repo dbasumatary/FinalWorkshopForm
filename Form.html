@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <h1>Scholarship Application Form</h1>
+    <form onsubmit="validateForm()">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name"><br><br>
+      
+      <label for="father-name">Father's Name</label>
+      <input type="text" id="father-name" name="father-name" required placeholder="Father's name"><br><br>
+      
+      <label for="income">Family Annual Income</label>
+      <input type="number" id="income" name="income" required placeholder="Family Annual Income"><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+    <script src="Form.js"></script>
+  </body>
+</html>
